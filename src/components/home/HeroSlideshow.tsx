@@ -13,7 +13,7 @@ interface Slide {
 const slides: Slide[] = [
   {
     image: 'https://static.wixstatic.com/media/c73eb8_f6183422ffa746ecb370bf17d178ce45~mv2.jpg',
-    headline: 'Handcrafted with Love Since 1958',
+    headline: "Handcrafted with Love Since the 1930's",
     description: 'Each basket tells a story of tradition, skill, and dedication passed down through generations.',
     ctaText: 'Shop Collection',
     ctaLink: '/collections'
