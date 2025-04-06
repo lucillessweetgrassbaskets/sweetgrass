@@ -52,20 +52,9 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Contact Us</h3>
             <ul className="space-y-3">
-              <li className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-amber-600 flex-shrink-0 mt-1" />
-                <span className="text-gray-600">
-                  123 Market Street<br />
-                  Charleston, SC 29401
-                </span>
-              </li>
-              <li className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-amber-600 flex-shrink-0" />
-                <span className="text-gray-600">(843) 555-0123</span>
-              </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-amber-600 flex-shrink-0" />
-                <span className="text-gray-600">info@lucillesbaskets.com</span>
+                <span className="text-gray-600">lucilles.sweetgrassbaskets@yahoo.com</span>
               </li>
             </ul>
           </div>
