@@ -19,6 +19,7 @@ interface CustomerInfo {
 
 interface Order {
   id: string;
+  stripe_payment_intent_id: string;
   created_at: string;
   total_amount: number;
   fulfillment_status: 'unfulfilled' | 'fulfilled';
@@ -221,7 +222,7 @@ export default function Dashboard() {
               <div key={order.id} className="p-6">
                 <div className="flex justify-between items-start mb-4">
                   <div>
-                    <p className="text-sm text-gray-500">Order #{order.id}</p>
+                    <p className="text-sm text-gray-500">Order #{order.strip_payment_intent_id}</p>
                     <p className="text-sm text-gray-500">
                       {new Date(order.created_at).toLocaleDateString()}
                     </p>
