@@ -32,12 +32,14 @@ const handler: Handler = async (event) => {
       price_id: string;
       quantity: number;
       price: number;
+      name: string;
     }>;
     
     const items = orderItems.map(item => ({
       quantity: item.quantity,
       amount: item.price * 100 * item.quantity, // Convert to cents
-      description: `Order item (${item.price_id})`
+      description: `Order item (${item.price_id})`,
+      name: item.name
     }));
 
     return {
