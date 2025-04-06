@@ -6,7 +6,7 @@ export const products: Product[] = [
     priceId: 'price_1R8SfyPOPVFFvqdX1b2nZBM4',
     name: 'Hot Plate Basket',
     category: 'baskets',
-    price: 70.00,
+    price: 1.00,
     dimensions: {
       diameter: 9.5,
     },
