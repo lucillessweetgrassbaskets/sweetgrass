@@ -11,6 +11,7 @@ interface OrderDetails {
     description: string;
     quantity: number;
     amount: number;
+    name: string;
   }>;
   shipping: {
     name: string;
@@ -107,7 +108,7 @@ export default function OrderLookup() {
               {orderDetails.items.map((item, index) => (
                 <div key={index} className="flex justify-between">
                   <div>
-                    <span className="font-medium">{item.description}</span>
+                    <span className="font-medium">{item.name}</span>
                     <span className="text-gray-500"> × {item.quantity}</span>
                   </div>
                   <span>${(item.amount / 100).toFixed(2)}</span>
