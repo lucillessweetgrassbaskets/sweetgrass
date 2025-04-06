@@ -2,8 +2,8 @@ import { Product } from '../types/product';
 
 export const products: Product[] = [
   {
-    id: 'prod_S2Xly8TsDHBKyM',
-    priceId: 'price_1R8SfyPOPVFFvqdX1b2nZBM4',
+    id: 'prod_S4u3qUpeH9kNkk',
+    priceId: 'price_1RAkEuAGpnXrglIIxapatDli',
     name: 'Hot Plate Basket',
     category: 'baskets',
     price: 1.00,
@@ -15,8 +15,8 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: 'prod_S2UG2adPCw5sag',
-    priceId: 'price_1R8PHkPOPVFFvqdXL3Q6nmbV',
+    id: 'prod_S4u35rSMH1LDlt',
+    priceId: 'price_1RAkF2AGpnXrglIIpEPgwLz3',
     name: 'Large Braided Tray',
     category: 'baskets',
     price: 450.00,
@@ -29,8 +29,8 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: 'prod_S2UG2E4AYNTGsn',
-    priceId: 'price_1R8PIEPOPVFFvqdXLm4HOXUZ',
+    id: 'prod_S4u36sdYQbu0rv',
+    priceId: 'price_1RAkF0AGpnXrglIIipddCHN5',
     name: 'Large Two Circles Handle Basket',
     category: 'baskets',
     price: 425.00,
@@ -43,8 +43,8 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: 'prod_S2UOLqMGTwJW6I',
-    priceId: 'price_1R8PPjPOPVFFvqdXxhVyeJiO',
+    id: 'prod_S4u3vt2aMFnwvH',
+    priceId: 'price_1RAkEzAGpnXrglIIbHu1wfNs',
     name: 'Classic Large Oval Bread Tray',
     category: 'baskets',
     price: 325.00,
@@ -58,8 +58,8 @@ export const products: Product[] = [
     inStock: true
   },
   {
-    id: 'prod_S2UP1xjjdZHw8h',
-    priceId: 'price_1R8PQePOPVFFvqdXEMoG70o2',
+    id: 'prod_S4u3xq7Uj7ISc4',
+    priceId: 'price_1RAkExAGpnXrglIIv70TVd2o',
     name: 'Single Circle Handle Tray',
     category: 'baskets',
     price: 225.00,
