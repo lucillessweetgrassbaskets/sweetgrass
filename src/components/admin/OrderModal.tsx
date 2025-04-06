@@ -67,7 +67,7 @@ export default function OrderModal({ order, isOpen, onClose }: OrderModalProps) 
               <h2 id="order-modal-title" className="text-xl font-semibold text-gray-900">
                 Order Details
               </h2>
-              <p className="text-sm text-gray-500">Order #{order.id}</p>
+              <p className="text-sm text-gray-500">Order #{order.stripe_payment_intent_id}</p>
             </div>
             <button
               onClick={onClose}
