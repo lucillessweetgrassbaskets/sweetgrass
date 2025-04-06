@@ -48,17 +48,21 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
+           {/* Contact Info */}
           <div>
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-amber-600 flex-shrink-0" />
-                <span className="text-gray-600">lucilles.sweetgrassbaskets@yahoo.com</span>
+                <a
+                  href="mailto:lucilles.sweetgrassbaskets@yahoo.com"
+                  className="text-gray-600 hover:text-amber-600"
+                >
+                  lucilles.sweetgrassbaskets@yahoo.com
+                </a>
               </li>
             </ul>
           </div>
-
           {/* Newsletter */}
           <div>
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Stay Updated</h3>
