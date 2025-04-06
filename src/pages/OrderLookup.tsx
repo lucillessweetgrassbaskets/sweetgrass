@@ -94,7 +94,7 @@ export default function OrderLookup() {
         <div className="bg-white rounded-lg shadow-sm p-6">
           <div className="border-b pb-4 mb-4">
             <h2 className="text-xl font-semibold text-gray-900">Order Details</h2>
-            <p className="text-sm text-gray-500">Order ID: {orderDetails.id}</p>
+            <p className="text-sm text-gray-500">Order ID: {orderDetails.name}</p>
             <p className="text-sm text-gray-500">
               Date: {new Date(orderDetails.created * 1000).toLocaleDateString()}
             </p>
