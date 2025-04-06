@@ -104,8 +104,6 @@ export default function Footer() {
               </a>
             </div>
             <p className="text-gray-600 text-sm">
-
-              © {new Date().getFullYear()} Lucille's Sweetgrass Baskets. All rights reserved.
               © {new Date().getFullYear()} Lucille's Sweetgrass Baskets. All rights reserved.{' '}
               Website designed by{' '}
               <a 
