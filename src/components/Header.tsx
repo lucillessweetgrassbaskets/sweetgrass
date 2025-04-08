@@ -132,7 +132,6 @@ export default function Header() {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
                 placeholder="Search products..."
                 className="w-full px-4 py-2 pr-12 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
                 autoFocus
