@@ -147,6 +147,41 @@ const Footer = () => {
 
           </div>
 
+          {/* Newsletter */}
+
+          <div>
+
+            <h3 className="text-lg font-semibold text-gray-900 mb-4">Stay Updated</h3>
+
+            <form onSubmit={handleNewsletterSubmit} className="space-y-4">
+
+              <input
+
+                type="email"
+
+                placeholder="Enter your email"
+
+                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
+
+              />
+
+              <button
+
+                type="submit"
+
+                className="w-full px-4 py-2 bg-amber-600 text-white rounded-md hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-500"
+
+              >
+
+                Subscribe
+
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
 
           
           {/* Newsletter */}
