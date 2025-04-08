@@ -82,28 +82,6 @@ export default function Contact() {
           </p>
 
 
-
-          <div className="space-y-6">
-
-            <div className="flex items-start space-x-4">
-                   <a
-
-                  href="tel8435550123:lucilles.sweetgrassbaskets@yahoo.com"
-
-                  className="text-gray-600 hover:text-amber-600"
-
-                >
-
-                  lucilles.sweetgrassbaskets@yahoo.com
-
-                </a>
-
-              </div>
-
-            </div>
-
-
-
             <div className="flex items-start space-x-4">
 
               <Mail className="h-6 w-6 text-amber-600 flex-shrink-0" />
