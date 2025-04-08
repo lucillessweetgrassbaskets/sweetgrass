@@ -86,36 +86,17 @@ export default function Contact() {
           <div className="space-y-6">
 
             <div className="flex items-start space-x-4">
+                   <a
 
-              <MapPin className="h-6 w-6 text-amber-600 flex-shrink-0" />
+                  href="tel8435550123:lucilles.sweetgrassbaskets@yahoo.com"
 
-              <div>
+                  className="text-gray-600 hover:text-amber-600"
 
-                <h3 className="font-medium text-gray-900">Visit Us</h3>
+                >
 
-                <p className="mt-2 text-gray-600">
+                  lucilles.sweetgrassbaskets@yahoo.com
 
-                  123 Market Street<br />
-
-                  Charleston, SC 29401
-
-                </p>
-
-              </div>
-
-            </div>
-
-
-
-            <div className="flex items-start space-x-4">
-
-              <Phone className="h-6 w-6 text-amber-600 flex-shrink-0" />
-
-              <div>
-
-                <h3 className="font-medium text-gray-900">Call Us</h3>
-
-                <p className="mt-2 text-gray-600">(843) 555-0123</p>
+                </a>
 
               </div>
 
@@ -130,9 +111,17 @@ export default function Contact() {
               <div>
 
                 <h3 className="font-medium text-gray-900">Email Us</h3>
+                 <a
 
-                <p className="mt-2 text-gray-600">info@lucillesbaskets.com</p>
+                  href="mailto:lucilles.sweetgrassbaskets@yahoo.com"
 
+                  className="text-gray-600 hover:text-amber-600"
+
+                >
+
+                  lucilles.sweetgrassbaskets@yahoo.com
+
+                </a>
               </div>
 
             </div>
