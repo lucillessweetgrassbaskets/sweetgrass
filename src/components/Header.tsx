@@ -19,6 +19,25 @@ export default function Header() {
     console.log('Searching for:', searchTerm);
   };
 
+  // Common navigation links
+  const navLinks = (
+    <>
+      <Link to="/" className="text-gray-700 hover:text-gray-900">Home</Link>
+      <Link to="/collections" className="text-gray-700 hover:text-gray-900">Collections</Link>
+      <Link to="/about" className="text-gray-700 hover:text-gray-900">About</Link>
+      <Link to="/contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
+      {isAdmin && (
+        <Link
+          to="/admin"
+          className="text-gray-700 hover:text-gray-900"
+          title="Admin Dashboard"
+        >
+          Admin Dashboard
+        </Link>
+      )}
+    </>
+  );
+
   return (
     <header className="fixed top-0 left-0 right-0 bg-white z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,10 +53,7 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-gray-900">Home</Link>
-            <Link to="/collections" className="text-gray-700 hover:text-gray-900">Collections</Link>
-            <Link to="/about" className="text-gray-700 hover:text-gray-900">About</Link>
-            <Link to="/contact" className="text-gray-700 hover:text-gray-900">Contact</Link>
+            {navLinks}
           </nav>
 
           {/* Icons */}
@@ -87,38 +103,7 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <Link
-                to="/"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-              >
-                Home
-              </Link>
-              <Link
-                to="/collections"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-              >
-                Collections
-              </Link>
-              <Link
-                to="/about"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-              >
-                About
-              </Link>
-              <Link
-                to="/contact"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-              >
-                Contact
-              </Link>
-              {isAdmin && (
-                <Link
-                  to="/admin"
-                  className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-                >
-                  Admin Dashboard
-                </Link>
-              )}
+              {navLinks}
             </div>
           </div>
         )}
@@ -131,7 +116,6 @@ export default function Header() {
                 type="text"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                value={searchTerm}
                 placeholder="Search products..."
                 className="w-full px-4 py-2 pr-12 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
                 autoFocus
