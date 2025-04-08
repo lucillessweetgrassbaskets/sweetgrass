@@ -200,7 +200,7 @@ export default function Contact() {
             <p>
               <button
                 type="submit"
-                className="mt-4 px-6 py-2 bg-primary text-white rounded hover:bg-opacity-90 transition"
+                className="w-full px-6 py-3 bg-amber-600 text-white rounded-md hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-amber-500"
               >
                 Send
               </button>
