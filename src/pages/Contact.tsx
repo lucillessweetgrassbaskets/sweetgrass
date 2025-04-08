@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 
 // Reusable Contact Detail Component
 const ContactDetail = ({ icon: Icon, title, content }: { icon: any; title: string; content: string }) => (
