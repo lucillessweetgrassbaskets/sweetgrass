@@ -136,7 +136,6 @@ export default function Header() {
                 placeholder="Search products..."
                 className="w-full px-4 py-2 pr-12 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
                 autoFocus
-                autoFocus
               />
               <button
                 type="submit"
