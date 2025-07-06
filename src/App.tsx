@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import { CartProvider } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
 import CartDrawer from './components/cart/CartDrawer';
+import ScrollToTop from './components/ScrollToTop';
 import Auth from './pages/Auth';
 import Dashboard from './pages/Dashboard';
 import PrivateRoute from './components/auth/PrivateRoute';
@@ -23,6 +24,7 @@ function App() {
     <AuthProvider>
       <CartProvider>
         <Router>
+          <ScrollToTop />
           <div className="min-h-screen bg-gray-50">
             <Header />
             <main className="pt-16">
