@@ -102,7 +102,7 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 flex flex-col">
+            <div className="px-2 pt-2 pb-3 space-y-4 flex flex-col">
               {navLinks}
             </div>
           </div>
